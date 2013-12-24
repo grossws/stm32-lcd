@@ -1,0 +1,37 @@
+# About
+
+This project implements simple TFT LCD driver with simple vt52-like terminal.
+
+# Hardware
+
+Some devboard from China based on [STM32F103xB][1] controller. Core is ARM Cortex-M3.
+
+Board has TFT LCD display with [ILI9320][2] driver on it.
+
+PL-2303 is used to communicate with as USB-to-UART bridge. It's quite unstable under Linux.
+Use FTDI chip if you have it.
+
+[1]: http://www.st.com/web/en/resource/technical/document/datasheet/CD00161566.pdf "STM32F103xB datasheet"
+[2]: http://www.densitron.com/uploadedFiles/Displays/Support/ILI9320AN_V0.92.pdf "ILI9320 datasheet"
+
+# Software
+
+Program is written in C (c99 standart-compatible).
+
+To build it you need CMSIS3 and STM32F10x StdPeriph Lib.
+ 
+Makefile and Eclipse CDT projects are generated with cmake (using stm32-cmake).
+
+I use Codesorcery toolchain, based on GNU GCC ARM cross-compiler.
+
+# Contibution
+
+1. Fork
+2. Work
+3. Create pull request
+4. ...
+5. PROFIT!
+
+# License
+
+The project is licensed under MIT license. See LICENSE.
