@@ -2,6 +2,8 @@
 
 This project implements simple TFT LCD driver with simple vt52-like terminal.
 
+[Article][3] about this project on habrahabr.ru (in russian).
+
 # Hardware
 
 Some devboard from China based on [STM32F103xB][1] controller. Core is ARM Cortex-M3.
@@ -13,6 +15,7 @@ Use FTDI chip if you have it.
 
 [1]: http://www.st.com/web/en/resource/technical/document/datasheet/CD00161566.pdf "STM32F103xB datasheet"
 [2]: http://www.densitron.com/uploadedFiles/Displays/Support/ILI9320AN_V0.92.pdf "ILI9320 datasheet"
+[3]: http://habrahabr.ru/post/207136/
 
 # Software
 
